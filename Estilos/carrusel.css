@@ -1,0 +1,100 @@
+.wrapper {
+        background-color: white;
+        width: 930px;
+        height: 250px;
+        margin: 0px auto;
+        padding: 0px;
+        box-shadow: 0 0 0 0px #999;
+}
+.list_carousel {
+        background-color: #222;
+        margin: 0 0 0px 0px;
+        width: 895px;
+}
+.list_carousel ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+}
+.list_carousel li {
+        font-size: 40px;
+        color: #222;
+        text-align: center;
+        background-color:  #222;
+        border: 5px solid  #222;
+        padding: 0;
+        margin: 0px;
+        display: block;
+        float: left;
+}
+			
+.clearfix {
+                float: none;
+                clear: both;
+        }
+
+.prev {
+        float: left;
+        margin-left: 0px;
+        display:block;
+        height: 73px;
+        width: 23px;
+        text-decoration:none;
+        border: 0px;
+        border-style: none;
+        background-image: url(../Imagenes/back-off.png);
+      }
+
+a.prev:hover{
+        background-image: url(../Imagenes/back-on.png);
+        text-decoration: none;
+        border-style: none;
+      }
+
+a.prev:link{
+       text-decoration: none;
+       border-style: none;
+      }
+      
+a.prev:visited{
+       text-decoration: none;
+       border-style: none;
+      }     
+      
+a.prev:active{
+       text-decoration: none;
+       border-style: none;
+      }           
+      
+.next {
+        float: right;
+        margin-right: 0px;
+        display:block;
+        height: 73px;
+        width: 23px;
+        text-decoration:none;
+        background-image: url(../Imagenes/next-off.png);				
+			}
+			
+a.next:hover{
+       background-image: url(../Imagenes/next-on.png);
+       text-decoration: none;
+      }
+	
+.pager {
+        float: left;
+        width: 300px;
+        text-align: center;
+}
+.pager a {
+        margin: 0 5px;
+        text-decoration: none;
+}
+.pager a.selected {
+        text-decoration: none;
+}
+			
+img {
+        border: 0;
+    }

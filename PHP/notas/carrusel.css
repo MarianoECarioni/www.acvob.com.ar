@@ -1,0 +1,78 @@
+			.wrapper {
+				background-color: white;
+				width: 930px;
+				height: 250px;
+				margin: 0px auto;
+				padding: 0px;
+				box-shadow: 0 0 0 0px #999;
+			}
+			.list_carousel {
+				background-color: #ccc;
+				margin: 0 0 0px 0px;
+				width: 895px;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				font-size: 40px;
+				color: #999;
+				text-align: center;
+				background-color: #eee;
+				border: 5px solid #999;
+				padding: 0;
+				margin: 0px;
+				display: block;
+				float: left;
+			}
+			
+	  	.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 0px;
+        display:block;
+        height: 40px;
+        width: 40px;
+        text-decoration:none;
+        background-image: url(imagenes/Anterior-off.gif);
+      }
+	  	a.prev:hover{
+       background-image: url(imagenes/Anterior-H.gif);
+      }
+
+			.next {
+				float: right;
+				margin-right: 0px;
+        display:block;
+        height: 40px;
+        width: 40px;
+        text-decoration:none;
+        background-image: url(imagenes/Siguiente-off.gif);				
+			}
+			
+	  	a.next:hover{
+       background-image: url(imagenes/Siguiente-H.gif);
+      }
+	
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: none;
+			}
+			
+			img {
+      border: 0;
+      }

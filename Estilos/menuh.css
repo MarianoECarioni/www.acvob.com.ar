@@ -1,0 +1,54 @@
+#menu{
+     padding: 0px;
+     margin: auto;
+     text-align: "center";
+     background: #225;
+}
+
+#menu td {
+text-align: center;
+}
+
+#menu td a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-image: url(../Imagenes/boton-menu-off.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 0px #fff;
+    padding: 11px;
+    position: relative;
+    width: 125px;            
+}
+
+#menu td a:hover{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-image: url(../Imagenes/boton-menu-on.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 0px #fff;
+    padding: 11px;
+    position: relative;
+    width: 125px;
+}                
+
+#redes{
+     padding: 0px;
+     margin: 0px;
+     text-align: "center";
+}
+
+#redes td p{
+    color: #fff;
+}
+
+#menu2{
+     padding: 0px;
+     margin: auto;
+     text-align: "center";
+     background: #225;
+}
+                

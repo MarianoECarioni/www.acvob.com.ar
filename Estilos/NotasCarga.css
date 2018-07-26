@@ -1,0 +1,545 @@
+#notas{
+      background: #fff;
+      margin: 0 auto;
+}
+
+#notas .publi{
+      background: #447;
+}
+
+#nota_principal{
+      background-size: 100%;
+      background-repeat:no-repeat;
+      width: 448px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+      vertical-align: top;
+      vertical-align: text-top;
+}
+
+#nota_principal .foto{
+      height: 230px;
+}
+
+#nota_principal .piefoto{
+      height: 7px;
+      background: #559;
+}
+#nota_principa .imagen{
+      height: 10px;
+      width: 448px;
+}
+
+
+#nota_principal .piefoto p{
+     color: #fff; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+     font-weight: bold;
+}
+
+#nota_principal .pie{
+    align-content:  stretch;
+    margin-bottom: 10px;
+}
+
+#nota_principal .pie h1 input{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:25pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_principal .pie p{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#nota_secundaria_1{
+      background: #fff;
+      width: 300px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+}
+
+#nota_secundaria_1 h1{
+     color: #000; 
+     font-family: arial;
+     font-style: normal;
+     font-weight: bolder;
+     text-align: left;
+     font-size: 16pt;
+     line-height: 1px;
+     margin-top: 10pt;
+     position: relative;   
+      
+}
+
+#InputH1{
+     color: #000; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 16pt;
+     line-height: 1px;
+     margin-top: 0pt;
+     position: relative; 
+     font-weight: bold;
+     border-collapse: collapse;
+}
+#InputH2{
+    color:#444; 
+    font-family:arial;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    font-size: 10pt;
+    margin-bottom: 0pt;
+    margin-left: 2pt;
+    position: relative;       
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+#nota_secundaria_1 h2{
+     color:#444; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     text-decoration: none;
+     font-size: 10pt;
+     margin-bottom: 4pt;
+     margin-left: 2pt;
+     position: relative;       
+}
+
+#ipie{
+     color:#444; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     text-decoration: none;
+     font-size: 10pt;
+     margin-bottom: 4pt;
+     margin-left: 2pt;
+     position: relative;       
+}
+
+#TextP{
+     color:#000; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 10pt;
+     position: relative;       
+     margin-left: 2pt;
+     margin-right: 2pt;
+     margin-top: 0pt;
+}
+
+#publicidad {
+    width: 225px; 
+    background: #333;
+    margin-left: 0;
+
+}
+
+#TEscudos {
+    height: 100pt;
+    background: #000;
+    width: 990pt;
+    margin: 0 auto;
+}
+
+#nota_secundaria_2{
+      background: #fff;
+      width: 448px;
+      height: 220px;       
+      border: 0px;  
+      margin-left: 2pt;
+      margin-right: 2pt;
+      border-spacing: 0pt;
+}
+
+#nota_secundaria_2 .colIzq{
+      border-right: 1pt;
+      border-right-style: solid;
+      border-right-color: #aaa;
+}
+
+#nota_ex_principal{
+      width: 280px;
+      height: 200px;       
+      background-repeat: no-repeat;
+      border-collapse: collapse;
+      margin-left: 10pt;
+      margin-right: 10pt;
+      margin-top: 5pt;
+      margin-bottom: 5pt;
+}
+
+#nota_ex_principal .foto{
+      height: 120px;
+      width: 160px;
+}
+
+#nota_ex_principal .piefoto{
+      height: 3px;
+      background: #559;
+      width: 160px;
+}
+
+#nota_ex_principal .piefoto p{
+     color: #fff; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 8pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 0pt;
+     position: relative;
+     font-weight: bold;
+}
+
+#nota_ex_principal .pie{
+      background-image: url("imagenes/fondo2.png");
+      height: 20px;
+      background-repeat: repeat;
+      width: 160px;
+}
+
+#nota_ex_principal .pie h1{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:16pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_ex_principal .pie p{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#notas_antiguas{
+      width: 100%;
+      height: 10px;       
+      border: 0px;  
+      background: #557;
+      border-collapse: collapse;
+      color: #fff;
+      border-left: 2pt;      
+}
+
+#notas_antiguas .logo{
+    background-image: url(imagenes/pelota.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+#notas_antiguas p{
+      text-align: left;
+      font-family: arial;
+      font-size: 15pt;
+      font-style: normal;     
+}
+
+#nota_ex_principal_sin_foto{
+      width: 280px;
+      height: 200px;       
+      border-top: 1pt;
+      border-top-style: dashed;
+      border-top-color: #aaa;      
+      border-bottom: 1pt;
+      border-bottom-style: dashed;
+      border-bottom-color: #aaa;      
+      background-repeat: no-repeat;
+      border-collapse: collapse;
+      margin-left: 10pt;
+      margin-right: 10pt;
+      margin-top: 5pt;
+      margin-bottom: 5pt;
+}
+
+#nota_ex_principal_sin_foto h1{
+     color:#000; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:16pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_ex_principal_sin_foto h2{
+     color:#777; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     text-decoration: none;
+     font-size:12pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#posiciones{
+      width: 100%;
+      height: 10px;       
+      border: 0px;  
+      background: #557;
+      border-collapse: collapse;
+      color: #fff;
+      border-left: 2pt;      
+      margin-top: 0px; 
+}
+
+#posiciones .logo{
+    background-image: url(imagenes/pelota.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+#posiciones p{
+      text-align: left;
+      font-family: arial;
+      font-size: 15pt;
+      font-style: normal;     
+}
+
+#video_principal{
+      background: #666;
+      width: 448px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+}
+
+#video_principal .facebook{
+      background: #fff;
+   }
+#video_principal .foto{
+      height: 230px;
+      text-align: center;
+      background: #666;
+}
+
+#video_principal .pie{
+      background: #666;
+      height: 50px;
+}
+
+#video_principal .pie h1{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:25pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#video_principal .pie p{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#video_principal .titulo
+{
+  background: #666;
+  height: 50pt;
+
+}
+
+#texPie{
+   height: 22pt;
+   background-color: transparent;
+   width: 300px;
+   border-style: none;
+   color: #fff; 
+   font-family: arial;
+   font-style: italic;
+   text-align: center;
+   text-decoration:  underline;
+   font-size: 16pt;
+   font-weight: bold;
+} 
+
+#titulo {
+    background-color: transparent;
+    width: 400px;
+    position: relative;
+    border-style: none;
+    text-align:center;
+    margin-top:22pt;
+    font-family:arial;
+    text-align: center;
+    font-size:22pt;
+    font-family:lucida sans;
+    font-weight: bold;
+    font-style:italic;
+    color: #8888FF;
+}
+
+#detalleCorto {
+    background-color: transparent;
+    color: #bbb; 
+    font-family:arial;
+    font-style: italic;
+    text-align:justify;
+    vertical-align: top;
+    width: 640px;
+    height: 80px;
+    border-style: none;
+    font-size: 10pt;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    resize:none;
+
+
+}
+
+#detalleLargo {
+ background-image:  url('../Imagenes/fondopapelrosa.png');
+ font-size: 10pt;
+ font-style: normal;
+ font-family: arial;
+ text-align: justify;
+ width: 740px;
+ height: 400px;
+ padding: 20px;
+ color: black; 
+ border-style: solid;
+ border-width: 1px;  
+ border-radius: 10pt 10pt 10pt 10pt;
+}
+
+#imagen{
+    width: 100%;     
+}
+.inputModificado {
+    margin: 10px 0px 10px 50px;
+    clear: both;
+}
+
+.inputImagen {
+    background: #ffcc99;
+    opacity: 0.5;
+    box-shadow: 0px 0px 1px black, inset 0 0px 5px 2px black;
+    padding: 5px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin-top:  -2px;
+}
+
+.botonInputFileModificado {
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #666;
+    padding-bottom: 2px;
+    box-shadow: inset 0 0px 8px 2px blue;
+    width: 80px;
+    margin-left: 180px;
+}
+
+.botonInputFileModificado:hover {   
+    border: 2px solid blue;  
+    background-color: #333;
+    color: #fff;
+}
+
+.botonInputFileModificado .inputImagenOculto {
+    opacity: 0;
+    position: absolute;
+    margin-left: -125px;
+    width: 225px;
+}
+
+.botonInputFileModificado .boton {
+    text-align: center;
+}
+
+.BotnInput{
+    color: white;
+}
+
+.BotonBorrar{
+    border-radius: 10pt;
+    height: 20pt;
+    width: 40pt;
+    font-weight:  bold;
+    background-color: hotpink ;
+    border-color: red;
+    background-image: url("../Imagenes/papelera.png");
+    background-size: 15pt 20pt ;
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.thumb{
+     height: 80px;
+     border: 1px solid #000;
+     margin: 10px 5px 0 0;
+}

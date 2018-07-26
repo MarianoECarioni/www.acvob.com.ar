@@ -1,0 +1,27 @@
+.cabecera{
+    background: #8080CC;
+    color: black;
+}
+
+.formTablas{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tablas{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #aed0ea;
+    border-color: blue;
+    border-width: 3px;
+    border-style:  solid;
+    width: 100%;
+    height: 100%;
+}
+
+.bordes{
+    width: 0%;
+}
+
+.centro{
+    width:100%;
+}

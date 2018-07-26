@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-bottom: inherit; 	 
+}
+
+.menuIni {
+    position: relative;
+    text-align: center;
+}
+
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.TmenuIni{
+    text-align: center;
+    width: 100%;
+}
+
+.TmenuIni h1{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:24px;
+    text-decoration:underline;
+    color: white;
+    
+}
+
+.CeldaCentral{
+    background: #222;
+}
+
+.CeldaCentral h2{
+    color: #D95;
+}
+
+.FilaCentral{
+    height: 300px;
+}
+
+.CeldaTop{
+    background: #225;
+}
+
+.CeldaBottom{
+    background:  #222; 
+}
+
+.CeldaFixture{
+    background: #222;
+    height: 520px;
+}
+
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:24px;
+	text-decoration:underline;
+        color: white;
+}
+
+.TPrincipal{
+     width: 1000px;
+     margin-left:  auto;
+     margin-right: auto;
+     background: #222;
+     text-align: center;
+}	
+
+.login{
+    background-color: #59D;
+    width: 20%;
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    border-width: 3px;
+    border-style:  solid;
+}
+
+
+.redondo{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.boton{
+    border-radius: 3px 3px 3px 3px;
+    background-color: #59D;
+    border-color: blue;
+    width: 100px;
+}
+
+.botonVolver{
+    border-radius: 3px 3px 3px 3px;
+    background-color: #D95;
+    border-color: red;
+    width: 100px;
+}
+
+.DivDeBotones{
+    background-color: #59D;
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    border-width: 3px;
+    border-style:  solid;
+}
+
+.Select{
+    border-radius: 3px 3px 3px 3px;
+    background-color: #aed0ea;
+    border-color: blue;
+}

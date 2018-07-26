@@ -1,0 +1,204 @@
+.posFinales{
+            font-size: 9pt; 
+            font-family: arial;
+            margin-left:0;
+            margin-right:5;
+}
+.body1{
+/*     width: 100%; */
+/*    background: #fff; */
+/*     background-image: url("Red.png");      */
+     text-align: center;
+     margin:0 auto;
+    
+}
+
+.TPrincipal{
+     width: 1000px;
+     margin-left:  auto;
+     margin-right: auto;
+     background: #222;
+     text-align: center;
+}
+
+.TCarrousel{
+     margin: auto;
+}
+
+.TCreditos{
+     width: 1000px;
+     margin-left:  auto;
+     margin-right: auto;
+     background: #FFF;
+}
+.TCreditos p{
+     font-size: 9pt;
+     text-align: right;
+     padding: 10pt;
+     margin-right: 0pt;
+
+}
+
+.ColMenu{
+      margin: auto;
+      text-align: center;
+}
+      
+.TPosFinales{
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0pt;
+      text-align: left;
+}
+
+.FilMenuH{
+  text-align: center;
+  background: #225;
+}
+
+H1{
+     color:#8888FF; 
+     font-family:lucida sans;
+     font-style:italic;
+     text-align:center;
+     font-size:16pt;
+     margin-top:20pt;
+    }
+    
+H2{
+     color:#0C0FFF;
+     font-family:lucida sans;
+     font-style:italic;
+     font-size:13pt;
+     text-align:left;
+     margin-left:20pt;
+     margin-right:20pt;
+     text-decoration:Underline;
+    }
+
+H3{
+     color:#000000;
+     font-family:arial;
+     font-size:12pt;
+     text-decoration:underline;
+     text-align:center;
+     margin-left:20pt;
+     margin-right:20pt;
+     font-style:italic;
+    }
+H4{
+     color:#0C0FFF;
+     font-family:lucida sans;
+     font-style:italic;
+     font-size:13pt;
+     text-align:left;
+   
+   }
+hr{
+   border: 1pt dashed #aaa;
+   height: 1pt;
+   margin-bottom: 0px;
+}
+
+P{
+   color:#666;
+   font-family:arial, tahoma;
+   font-size:11pt;
+   text-align:justify;
+   font-style:italic; 
+   margin-left:20pt;
+   margin-right:20pt;
+   padding:2pt100pt100pt5pt;
+   font-weight:normal;
+  
+    }
+    
+ul{
+   margin-left:2pt;
+   margin-right:5pt;
+  }    
+.ptabla{
+        font-size:8pt;
+        margin-left:auto;
+        margin-right:auto; 
+           }
+.resalta{
+            color:red;
+            text-align:center;
+            text-decoration:blink;
+            border-style:solid;
+            border-color:magenta;
+            }
+.resalta1{
+               color:#FF0099;
+               text-decoration:bold;}
+
+.body2{
+             width: 100%;
+             background: #000000;
+            }
+.LinEncab{
+                 height: 75pt;
+                }
+
+.ColEncab{
+                 width:86%;
+  /*               background:#2E64FE; */
+                   background:#36A0E2;
+  
+                   }
+
+/*.ColMenu{
+                 width:15%;
+                height:500pt;
+                background:#55bbaa;
+                } */
+
+.ColNotaPrin{
+                      width:65%;
+                      background:white;
+                      valign:top;
+                     }
+
+.LinNotaPrin{
+                    height:80%;
+                   }
+
+.ColNotaSec{
+                      width:20%;
+                      height:100%;
+                      background:#55bbee;
+                      text-align:center;
+                      
+           }
+.LinNotaSec{
+                    height:300pt;
+                   }
+.ColBanners{
+                    width:25%;
+                    height:60pt;
+                    background:white;
+                    text-align:center;
+                    }
+
+.LinBanners{
+                  height:60pt;
+                 }
+  
+.ImagenChica{
+}
+
+.AlCentro{
+          text-align:center !important;
+}
+
+.ParrSec{
+          font-size:9pt;
+
+}
+.tabla_blanca
+{
+ text-align: center;
+ margin-left:auto;
+ margin-right:auto; 
+}

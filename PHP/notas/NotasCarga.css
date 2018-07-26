@@ -1,0 +1,470 @@
+#notas{
+      background: #fff;
+      margin: 0 auto;
+}
+
+#notas .publi{
+      background: #447;
+}
+
+#nota_principal{
+      background-size: 100%;
+      background-repeat:no-repeat;
+      width: 448px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+      vertical-align: top;
+      vertical-align: text-top;
+}
+
+#nota_principal .foto{
+      height: 230px;
+}
+
+#nota_principal .piefoto{
+      height: 7px;
+      background: #559;
+}
+#nota_principa .imagen{
+      height: 10px;
+      width: 448px;
+}
+
+
+#nota_principal .piefoto p{
+     color: #f00; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+     font-weight: bold;
+}
+
+#nota_principal .pie{
+      background-image: url("imagenes/fondo2.png");
+      height: 100px;
+}
+
+#nota_principal .pie h1{
+     color:#f00; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:25pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_principal .pie p{
+     color:#f00; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#nota_secundaria_1{
+      background: #fff;
+      width: 300px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+}
+
+#nota_secundaria_1 h1{
+     color: #000; 
+     font-family: arial;
+     font-style: normal;
+     font-weight: bolder;
+     text-align: left;
+     font-size: 16pt;
+     line-height: 1px;
+     margin-top: 10pt;
+     position: relative;   
+      
+}
+
+#InputH1{
+     color: #000; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 16pt;
+     line-height: 1px;
+     margin-top: 0pt;
+     position: relative; 
+     font-weight: bold;
+     border-collapse: collapse;
+}
+#InputH2{
+    color:#444; 
+    font-family:arial;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+    font-size: 10pt;
+    margin-bottom: 0pt;
+    margin-left: 2pt;
+    position: relative;       
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+#nota_secundaria_1 h2{
+     color:#444; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     text-decoration: none;
+     font-size: 10pt;
+     margin-bottom: 4pt;
+     margin-left: 2pt;
+     position: relative;       
+}
+
+#ipie{
+     color:#444; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     text-decoration: none;
+     font-size: 10pt;
+     margin-bottom: 4pt;
+     margin-left: 2pt;
+     position: relative;       
+}
+
+#TextP{
+     color:#000; 
+     font-family:arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 10pt;
+     position: relative;       
+     margin-left: 2pt;
+     margin-right: 2pt;
+     margin-top: 0pt;
+}
+
+#publicidad {
+    width: 225px; 
+    background: #333;
+    margin-left: 0;
+
+}
+
+#TEscudos {
+    height: 100pt;
+    background: #000;
+    width: 990pt;
+    margin: 0 auto;
+}
+
+#nota_secundaria_2{
+      background: #fff;
+      width: 448px;
+      height: 220px;       
+      border: 0px;  
+      margin-left: 2pt;
+      margin-right: 2pt;
+      border-spacing: 0pt;
+}
+
+#nota_secundaria_2 .colIzq{
+      border-right: 1pt;
+      border-right-style: solid;
+      border-right-color: #aaa;
+}
+
+#nota_ex_principal{
+      width: 280px;
+      height: 200px;       
+      background-repeat: no-repeat;
+      border-collapse: collapse;
+      margin-left: 10pt;
+      margin-right: 10pt;
+      margin-top: 5pt;
+      margin-bottom: 5pt;
+}
+
+#nota_ex_principal .foto{
+      height: 120px;
+      width: 160px;
+}
+
+#nota_ex_principal .piefoto{
+      height: 3px;
+      background: #559;
+      width: 160px;
+}
+
+#nota_ex_principal .piefoto p{
+     color: #fff; 
+     font-family: arial;
+     font-style: normal;
+     text-align: left;
+     font-size: 8pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 0pt;
+     position: relative;
+     font-weight: bold;
+}
+
+#nota_ex_principal .pie{
+      background-image: url("imagenes/fondo2.png");
+      height: 20px;
+      background-repeat: repeat;
+      width: 160px;
+}
+
+#nota_ex_principal .pie h1{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:16pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_ex_principal .pie p{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#notas_antiguas{
+      width: 100%;
+      height: 10px;       
+      border: 0px;  
+      background: #557;
+      border-collapse: collapse;
+      color: #fff;
+      border-left: 2pt;      
+}
+
+#notas_antiguas .logo{
+    background-image: url(imagenes/pelota.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+#notas_antiguas p{
+      text-align: left;
+      font-family: arial;
+      font-size: 15pt;
+      font-style: normal;     
+}
+
+#nota_ex_principal_sin_foto{
+      width: 280px;
+      height: 200px;       
+      border-top: 1pt;
+      border-top-style: dashed;
+      border-top-color: #aaa;      
+      border-bottom: 1pt;
+      border-bottom-style: dashed;
+      border-bottom-color: #aaa;      
+      background-repeat: no-repeat;
+      border-collapse: collapse;
+      margin-left: 10pt;
+      margin-right: 10pt;
+      margin-top: 5pt;
+      margin-bottom: 5pt;
+}
+
+#nota_ex_principal_sin_foto h1{
+     color:#000; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:16pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#nota_ex_principal_sin_foto h2{
+     color:#777; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     text-decoration: none;
+     font-size:12pt;
+     margin-left: 2pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#posiciones{
+      width: 100%;
+      height: 10px;       
+      border: 0px;  
+      background: #557;
+      border-collapse: collapse;
+      color: #fff;
+      border-left: 2pt;      
+      margin-top: 0px; 
+}
+
+#posiciones .logo{
+    background-image: url(imagenes/pelota.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+#posiciones p{
+      text-align: left;
+      font-family: arial;
+      font-size: 15pt;
+      font-style: normal;     
+}
+
+#video_principal{
+      background: #666;
+      width: 448px;
+      height: 336px;       
+      border: 0px;  
+      border-collapse: collapse;
+}
+
+#video_principal .facebook{
+      background: #fff;
+   }
+#video_principal .foto{
+      height: 230px;
+      text-align: center;
+      background: #666;
+}
+
+#video_principal .pie{
+      background: #666;
+      height: 50px;
+}
+
+#video_principal .pie h1{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:25pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-bottom: 5pt;
+     padding: 1pt;
+     position: relative;     
+}
+
+#video_principal .pie p{
+     color:#fff; 
+     font-family:arial;
+     font-style: normal;
+     text-align:left;
+     font-size:10pt;
+     margin-left: 5pt;
+     margin-top: 0pt;
+     margin-right: 5pt;
+     padding: 1pt;
+     position: relative;
+}
+
+#video_principal .titulo
+{
+  background: #666;
+  height: 50pt;
+
+}
+
+#texPie{
+   height: 12pt;
+   background: #559;
+   width: 300px;
+   border-style: solid;
+   border-width: 1px;    
+   font-size:10pt;
+   color: #fff; 
+   font-family: arial;
+   font-style: normal;
+   text-align: left;
+   font-size: 10pt;
+   margin-left: 5pt;
+   margin-top: 0pt;
+   margin-right: 5pt;
+   padding: 1pt;
+   position: relative;
+   font-weight: bold;
+} 
+
+#titulo{
+    background-color: transparent;
+    width: 400px;
+    color:#fff; 
+    font-family:arial;
+    font-style: normal;
+    text-align:left;
+    font-size:25pt;
+    margin-left: 5pt;
+    margin-top: 0pt;
+    margin-bottom: 5pt;
+    padding:1pt;
+    position: relative;
+    height: 26pt;
+    border-style: solid;
+    border-width: 1px;     
+}
+
+#detalleCorto {
+ background-color: transparent;
+ color:#fff; 
+ font-family:arial;
+ font-style: normal;
+ text-align:left;
+ vertical-align: top;
+ font-size:10pt;
+ margin-left: 5pt;
+ margin-top: 0pt;
+ margin-right: 5pt;
+ padding: 1pt;
+ position: relative;
+ width: 400px;
+ height: 100px;
+ border-style: solid;
+ border-width: 1px;     
+ 
+}
+
+#imagen{
+    width: 100%;     
+}
