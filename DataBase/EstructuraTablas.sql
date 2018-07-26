@@ -1,9 +1,38 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 26-07-2018 a las 03:19:26
+-- Versión del servidor: 5.5.24-log
+-- Versión de PHP: 5.4.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de datos: `b7_11184280_uco`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `categoria`
+--
 
 CREATE TABLE IF NOT EXISTS `categoria` (
   `id_categoria` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `nombre` char(80) NOT NULL,
+  `nombre` char(80) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`id_categoria`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=71 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=71 ;
+
+-- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `fixture`
@@ -16,14 +45,29 @@ CREATE TABLE IF NOT EXISTS `fixture` (
   `semana` int(4) unsigned NOT NULL,
   `anio` int(4) unsigned NOT NULL,
   `numero` int(11) unsigned NOT NULL,
-  `local` char(30) NOT NULL,
-  `visitante` char(30) NOT NULL,
-  `sede` char(30) NOT NULL,
-  `fecha` char(10) NOT NULL,
-  `hora` char(5) NOT NULL,
+  `local` char(30) COLLATE utf8_spanish_ci NOT NULL,
+  `visitante` char(30) COLLATE utf8_spanish_ci NOT NULL,
+  `sede` char(30) COLLATE utf8_spanish_ci NOT NULL,
+  `fecha` char(10) COLLATE utf8_spanish_ci NOT NULL,
+  `hora` char(5) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`id_fixture`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6976 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=6976 ;
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `img_notas`
+--
+
+CREATE TABLE IF NOT EXISTS `img_notas` (
+  `id_img` int(10) NOT NULL COMMENT 'Identificador de imágen ',
+  `id_nota` int(10) NOT NULL AUTO_INCREMENT COMMENT 'Identificador de nota.',
+  `url_img` varchar(60) COLLATE utf8_spanish_ci DEFAULT NULL COMMENT 'URL de la imágen.',
+  PRIMARY KEY (`id_img`),
+  KEY `id_nota` (`id_nota`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Tabla de imagenes de notas.' AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `notas`
@@ -32,13 +76,13 @@ CREATE TABLE IF NOT EXISTS `fixture` (
 CREATE TABLE IF NOT EXISTS `notas` (
   `ID_NOTA` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Id de la nota',
   `TIPO_DE_NOTA` int(11) NOT NULL COMMENT 'Tipo de Nota: 1 -Principal, 2-Secundaria',
-  `TITULO` text CHARACTER SET latin1 NOT NULL COMMENT 'Titulo de la nota',
-  `PIE` text COLLATE utf8_bin NOT NULL COMMENT 'Pie de la nota',
-  `DETALLE_CORTO` text CHARACTER SET latin1 NOT NULL COMMENT 'Resumen de la nota',
-  `DETALLE_LARGO` text CHARACTER SET latin1 NOT NULL COMMENT 'Detalle de la nota',
-  `LINK_IMAGEN` text COLLATE utf8_bin NOT NULL COMMENT 'Link de la imágen de fondo',
+  `TITULO` text COLLATE utf8_spanish_ci NOT NULL COMMENT 'Titulo de la nota',
+  `PIE` text COLLATE utf8_spanish_ci NOT NULL COMMENT 'Pie de la nota',
+  `DETALLE_CORTO` text COLLATE utf8_spanish_ci NOT NULL COMMENT 'Resumen de la nota',
+  `DETALLE_LARGO` text COLLATE utf8_spanish_ci NOT NULL COMMENT 'Detalle de la nota',
+  `LINK_IMAGEN` text COLLATE utf8_spanish_ci NOT NULL COMMENT 'Link de la imágen de fondo',
   PRIMARY KEY (`ID_NOTA`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='Notas de la Web' AUTO_INCREMENT=3 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Notas de la Web' AUTO_INCREMENT=3 ;
 
 --
 -- Volcado de datos para la tabla `notas`
@@ -58,19 +102,21 @@ CREATE TABLE IF NOT EXISTS `posiciones` (
   `anio` int(4) unsigned NOT NULL,
   `id_torneo` int(11) unsigned NOT NULL,
   `id_categoria` int(11) unsigned NOT NULL,
-  `equipo` char(30) COLLATE latin1_spanish_ci NOT NULL,
+  `equipo` char(30) COLLATE utf8_spanish_ci NOT NULL,
   `PJugado` int(4) unsigned NOT NULL,
   `PGanado` int(4) unsigned NOT NULL,
   `PPerdido` int(4) unsigned NOT NULL,
-  `GanaP` char(2) COLLATE latin1_spanish_ci NOT NULL,
-  `PierdeP` char(2) COLLATE latin1_spanish_ci NOT NULL,
+  `GanaP` char(2) COLLATE utf8_spanish_ci NOT NULL,
+  `PierdeP` char(2) COLLATE utf8_spanish_ci NOT NULL,
   `SGanado` int(4) unsigned NOT NULL,
   `SPerdido` int(4) unsigned NOT NULL,
   `DSet` int(5) NOT NULL,
   `puntos` int(4) unsigned NOT NULL,
   `DTantos` int(7) NOT NULL,
   PRIMARY KEY (`anio`,`id_torneo`,`id_categoria`,`equipo`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `resultados`
@@ -82,9 +128,9 @@ CREATE TABLE IF NOT EXISTS `resultados` (
   `id_categoria` int(11) unsigned NOT NULL,
   `numero` int(11) unsigned NOT NULL,
   `semana` int(4) unsigned NOT NULL,
-  `fecha` char(10) COLLATE latin1_spanish_ci NOT NULL,
-  `local` char(30) COLLATE latin1_spanish_ci NOT NULL,
-  `visitante` char(30) COLLATE latin1_spanish_ci NOT NULL,
+  `fecha` char(10) COLLATE utf8_spanish_ci NOT NULL,
+  `local` char(30) COLLATE utf8_spanish_ci NOT NULL,
+  `visitante` char(30) COLLATE utf8_spanish_ci NOT NULL,
   `ptsloc` int(4) unsigned NOT NULL,
   `ptsvis` int(4) unsigned NOT NULL,
   `s1l` int(2) unsigned NOT NULL,
@@ -98,7 +144,9 @@ CREATE TABLE IF NOT EXISTS `resultados` (
   `s5l` int(2) unsigned NOT NULL,
   `s5v` int(2) unsigned NOT NULL,
   PRIMARY KEY (`anio`,`id_torneo`,`id_categoria`,`numero`,`semana`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `torneo`
@@ -106,22 +154,20 @@ CREATE TABLE IF NOT EXISTS `resultados` (
 
 CREATE TABLE IF NOT EXISTS `torneo` (
   `id_torneo` int(11) NOT NULL AUTO_INCREMENT,
-  `nombre` char(80) NOT NULL,
+  `nombre` char(80) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`id_torneo`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci AUTO_INCREMENT=9 ;
 
---
--- Volcado de datos para la tabla `torneo`
---
+-- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `usuario`
 --
 
 CREATE TABLE IF NOT EXISTS `usuario` (
-  `usuario` char(10) DEFAULT NULL,
-  `clave` char(10) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `usuario` char(10) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `clave` varchar(10) COLLATE utf8_spanish_ci DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
 -- Volcado de datos para la tabla `usuario`
@@ -129,3 +175,7 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 
 INSERT INTO `usuario` (`usuario`, `clave`) VALUES
 ('ucovoley', 'ezequiel');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
