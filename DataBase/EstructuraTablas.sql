@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `fixture` (
 --
 
 CREATE TABLE IF NOT EXISTS `img_notas` (
-  `id_img` int(10) NOT NULL COMMENT 'Identificador de imágen ',
+  `id_imagen` int(10) NOT NULL COMMENT 'Identificador de imágen ',
   `id_nota` int(10) NOT NULL AUTO_INCREMENT COMMENT 'Identificador de nota.',
   `url_img` varchar(60) COLLATE utf8_spanish_ci DEFAULT NULL COMMENT 'URL de la imágen.',
   PRIMARY KEY (`id_img`),
