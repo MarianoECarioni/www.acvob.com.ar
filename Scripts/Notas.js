@@ -21,7 +21,7 @@ function Modif_Nota(datos)
 	ajax.onreadystatechange=function() {
 		if (ajax.readyState === 4) {
 // Mostramos resultado
-                     alert ("Registro modificado");
+                     alert ("Nota modificada");
 //                          alert(ajax.responseText);
 		}
 		else {
@@ -65,7 +65,7 @@ function Borrar_Imagen(idnota, idimagen)
 	ajax = ajaxobj();
 //var ajax=nuevoAjax();
 	ajax.open("GET", "BorrarImagen.php?&Iidnota="+Fidnota+"&Iidimagen="+Fidimagen, false);
-        alert("salio");
+      //  alert("salio");
 // Indicamos que función vigila el cambio de estado
 	ajax.onreadystatechange=function() {
 		if (ajax.readyState === 4) {
@@ -101,7 +101,7 @@ function Insertar_Imagen(idnota, idimagen)
 	ajax.onreadystatechange=function() {
 		if (ajax.readyState === 4) {
 // Mostramos resultado
-                     alert ("Registro Insertado");
+                    // alert ("Registro Insertado");
 //                          alert(ajax.responseText);
 		}
 		else {

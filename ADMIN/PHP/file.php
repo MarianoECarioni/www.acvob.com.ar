@@ -1,6 +1,7 @@
 <?php
 $idnota = $_GET['idnotaImg'];   
 $cantidad = $_GET['Cantidad'];
+$IDNota   = $_GET['IdNota'];
 include("Funciones.php");
 //echo "Nombre: " . $_FILES['archivo']['name'] . "<br>";
 //echo "Tipo: " . $_FILES['archivo']['type'] . "<br>";
@@ -38,7 +39,7 @@ for ($i = 0; $i < $cantidad; $i++)
     
     if ($_FILES[$archivo]["error"] > 0)
     {
-     //   echo "Error: " . $_FILES[$archivo]['error'] . "<br>";
+        echo "Error: " . $_FILES[$archivo]['error'] . "<br>";
         write_log("Error de acceso al archivo", $_FILES[$archivo]['error'] );
     }
     else
@@ -93,5 +94,5 @@ for ($i = 0; $i < $cantidad; $i++)
 }
 write_log("*----------------FIN", "Fin de file.php--------------*");
 mysqli_close($conexion); 
-header('Location: LoadFiles.php?&idnota=1&idimagen=3');
+header('Location: LoadFiles.php?&idnota='.$IDNota);
 ?>

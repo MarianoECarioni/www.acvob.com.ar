@@ -54,9 +54,8 @@
             </tr>
             <tr>
                 <td> 
-                    <!-- Formulario de carga de imágenes                                        -->
-                    <form action="file.php?idnotaImg=<?php echo $Param; ?>&Cantidad=<?php echo $cantidad; ?>" method="post" enctype="multipart/form-data">
-                       
+                    <!-- Formulario de carga de imágenes -->
+                    <form action="file.php?idnotaImg=<?php echo $Param; ?>&Cantidad=<?php echo $cantidad; ?>&IdNota=<?php echo $IDNota; ?>" method="post" enctype="multipart/form-data">
                         <table border="0">
                             <script type="text/javascript">
                               var cant = 0;
@@ -75,6 +74,7 @@
                                 var selecc = '<input id='+ id + ' type="file" ' + name + ' class="BotnInput" onchange="previewFiles('+ id + ', ' + idImg + ')" /> ';
                                 var formu = '<form id="form' + i + '" ' + 'name="form' + i + '" ' + 'method="GET" ' + 'action="LoadFiles.php?idnota="' + IDNota + '"> ';
                                 var Idimagen = IDImagenes[i];        
+                                
                 document.write('<tr valign="center"> ' +   
                                     '<td> ' +    
                                         '<img id='+ idImg + ' src="'+imagenes[i]+'" $name width="100px" height="80px" /> '  +
@@ -95,10 +95,8 @@
                         <input name="Agregar" type="button" value="Agregar"  onclick="javascript:Insertar_Imagen('<?php echo $IDNota; ?>', '<?php echo $NuevaImagen; ?>' )" />
                         <input type="submit" value="Grabar" ></input>
                     </form>
-                     
                 </td>
             </tr>
-                
         </table>
     </body>    
 </html>    
