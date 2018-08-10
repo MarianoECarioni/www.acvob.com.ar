@@ -1,0 +1,394 @@
+[2018-08-10 00:04:55.000000 ]- entre: entre
+[2018-08-10 00:04:55.000000 ]- 0:  mysql_errno
+[2018-08-10 00:07:09.000000 ]- entre: entre
+[2018-08-10 00:07:09.000000 ]- 0:  mysql_errno
+[2018-08-10 00:07:22.000000 ]- entre: entre
+[2018-08-10 00:07:22.000000 ]- 1: Iidnota:
+[2018-08-10 00:07:22.000000 ]- 2: Iidimagen:
+[2018-08-10 00:07:22.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 00:07:22.000000 ]- 1: Filas Insertadas
+[2018-08-10 00:07:51.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 00:07:51.000000 ]- Parametro 1: 1
+[2018-08-10 00:07:51.000000 ]- Cantidad: 2
+[2018-08-10 00:07:51.000000 ]- Archivo: archivo0
+[2018-08-10 00:07:51.000000 ]- Carpeta temporal_0: 
+[2018-08-10 00:07:51.000000 ]- Imagen temporal_0: \
+[2018-08-10 00:07:51.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 00:07:51.000000 ]- Archivo: archivo1
+[2018-08-10 00:07:51.000000 ]- Carpeta temporal_1: C:\wamp\tmp\phpB94.tmp
+[2018-08-10 00:07:51.000000 ]- Imagen temporal_1: C:\wamp\tmp\phpB94.tmp\DSC_1095.JPG
+[2018-08-10 00:07:51.000000 ]- Redimensiono: archivo1
+[2018-08-10 00:07:51.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 00:07:51.000000 ]- Termino: archivo1
+[2018-08-10 00:07:52.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 00:07:52.000000 ]- Cantidad de filas_IDImagen_6: 1
+[2018-08-10 00:07:52.000000 ]- Accion MySql: Hago update imagen 6
+[2018-08-10 00:07:52.000000 ]- URL-img: ../Imagenes/DSC_1095.JPG
+[2018-08-10 00:07:52.000000 ]- Filas Actualizadas: 1
+[2018-08-10 00:07:52.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 00:08:22.000000 ]- entre: entre
+[2018-08-10 00:08:22.000000 ]- 1: Iidnota:
+[2018-08-10 00:08:22.000000 ]- 3: Iidimagen:
+[2018-08-10 00:08:22.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 00:08:22.000000 ]- 1: Filas Insertadas
+[2018-08-10 00:08:40.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 00:08:40.000000 ]- Parametro 1: 1
+[2018-08-10 00:08:40.000000 ]- Cantidad: 3
+[2018-08-10 00:08:40.000000 ]- Archivo: archivo0
+[2018-08-10 00:08:40.000000 ]- Carpeta temporal_0: 
+[2018-08-10 00:08:40.000000 ]- Imagen temporal_0: \
+[2018-08-10 00:08:40.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 00:08:40.000000 ]- Archivo: archivo1
+[2018-08-10 00:08:40.000000 ]- Carpeta temporal_1: 
+[2018-08-10 00:08:40.000000 ]- Imagen temporal_1: \
+[2018-08-10 00:08:40.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 00:08:40.000000 ]- Archivo: archivo2
+[2018-08-10 00:08:40.000000 ]- Carpeta temporal_2: C:\wamp\tmp\phpC9E4.tmp
+[2018-08-10 00:08:40.000000 ]- Imagen temporal_2: C:\wamp\tmp\phpC9E4.tmp\image_example_3.jpg
+[2018-08-10 00:08:40.000000 ]- Redimensiono: archivo2
+[2018-08-10 00:08:40.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 00:08:40.000000 ]- Termino: archivo2
+[2018-08-10 00:08:40.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 00:08:40.000000 ]- Cantidad de filas_IDImagen_7: 1
+[2018-08-10 00:08:40.000000 ]- Accion MySql: Hago update imagen 7
+[2018-08-10 00:08:40.000000 ]- URL-img: ../Imagenes/image_example_3.jpg
+[2018-08-10 00:08:40.000000 ]- Filas Actualizadas: 1
+[2018-08-10 00:08:40.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 00:09:18.000000 ]- entre: entre
+[2018-08-10 00:09:18.000000 ]- 0:  mysql_errno
+[2018-08-10 00:28:39.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 00:28:39.000000 ]- Parametro 1: 1
+[2018-08-10 00:28:39.000000 ]- Cantidad: 2
+[2018-08-10 00:28:39.000000 ]- Archivo: archivo0
+[2018-08-10 00:28:39.000000 ]- Carpeta temporal_0: C:\wamp\tmp\php15A5.tmp
+[2018-08-10 00:28:39.000000 ]- Imagen temporal_0: C:\wamp\tmp\php15A5.tmp\DSC_1091.JPG
+[2018-08-10 00:28:39.000000 ]- Redimensiono: archivo0
+[2018-08-10 00:28:39.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 00:28:39.000000 ]- Termino: archivo0
+[2018-08-10 00:28:39.000000 ]- Archivo: archivo1
+[2018-08-10 00:28:39.000000 ]- Carpeta temporal_1: C:\wamp\tmp\php15A6.tmp
+[2018-08-10 00:28:39.000000 ]- Imagen temporal_1: C:\wamp\tmp\php15A6.tmp\DSC_1134.JPG
+[2018-08-10 00:28:39.000000 ]- Redimensiono: archivo1
+[2018-08-10 00:28:39.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 00:28:39.000000 ]- Termino: archivo1
+[2018-08-10 00:28:39.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 00:28:39.000000 ]- Cantidad de filas_IDImagen_4: 1
+[2018-08-10 00:28:39.000000 ]- Accion MySql: Hago update imagen 4
+[2018-08-10 00:28:39.000000 ]- URL-img: ../Imagenes/DSC_1091.JPG
+[2018-08-10 00:28:39.000000 ]- Filas Actualizadas: 1
+[2018-08-10 00:28:39.000000 ]- Cantidad de filas_IDImagen_6: 1
+[2018-08-10 00:28:39.000000 ]- Accion MySql: Hago update imagen 6
+[2018-08-10 00:28:39.000000 ]- URL-img: ../Imagenes/DSC_1134.JPG
+[2018-08-10 00:28:39.000000 ]- Filas Actualizadas: 1
+[2018-08-10 00:28:39.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:15:46.000000 ]- entre: entre
+[2018-08-10 04:15:46.000000 ]- 1: Iidnota:
+[2018-08-10 04:15:46.000000 ]- 3: Iidimagen:
+[2018-08-10 04:15:46.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 04:15:46.000000 ]- 1: Filas Insertadas
+[2018-08-10 04:16:57.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:16:57.000000 ]- Parametro 1: 1
+[2018-08-10 04:16:57.000000 ]- Cantidad: 3
+[2018-08-10 04:16:57.000000 ]- Archivo: archivo0
+[2018-08-10 04:16:57.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:16:57.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:16:57.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:16:57.000000 ]- Archivo: archivo1
+[2018-08-10 04:16:57.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:16:57.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:16:57.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:16:57.000000 ]- Archivo: archivo2
+[2018-08-10 04:16:57.000000 ]- Carpeta temporal_2: C:\wamp\tmp\php16E3.tmp
+[2018-08-10 04:16:57.000000 ]- Imagen temporal_2: C:\wamp\tmp\php16E3.tmp\DSC_1095.JPG
+[2018-08-10 04:16:57.000000 ]- Redimensiono: archivo2
+[2018-08-10 04:16:57.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:16:57.000000 ]- Termino: archivo2
+[2018-08-10 04:16:57.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:16:57.000000 ]- Cantidad de filas_IDImagen_8: 1
+[2018-08-10 04:16:57.000000 ]- Accion MySql: Hago update imagen 8
+[2018-08-10 04:16:57.000000 ]- URL-img: ../Imagenes/DSC_1095.JPG
+[2018-08-10 04:16:57.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:16:57.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:31:08.000000 ]- entre: entre
+[2018-08-10 04:31:08.000000 ]- 0:  mysql_errno
+[2018-08-10 04:31:23.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:31:23.000000 ]- Parametro 1: 1
+[2018-08-10 04:31:23.000000 ]- Cantidad: undefined
+[2018-08-10 04:31:23.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:31:23.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:32:11.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:32:11.000000 ]- Parametro 1: 1
+[2018-08-10 04:32:11.000000 ]- Cantidad: undefined
+[2018-08-10 04:32:11.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:32:11.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:34:32.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:34:32.000000 ]- Parametro 1: 1
+[2018-08-10 04:34:32.000000 ]- Cantidad: 2
+[2018-08-10 04:34:32.000000 ]- Archivo: archivo0
+[2018-08-10 04:34:32.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:34:32.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:34:32.000000 ]- Redimensiono: archivo0
+[2018-08-10 04:34:32.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:34:32.000000 ]- Termino: archivo0
+[2018-08-10 04:34:32.000000 ]- Archivo: archivo1
+[2018-08-10 04:34:32.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:34:32.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:34:32.000000 ]- Redimensiono: archivo1
+[2018-08-10 04:34:32.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:34:32.000000 ]- Termino: archivo1
+[2018-08-10 04:34:32.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:34:32.000000 ]- Cantidad de filas_IDImagen_4: 1
+[2018-08-10 04:34:32.000000 ]- Accion MySql: Hago update imagen 4
+[2018-08-10 04:34:32.000000 ]- URL-img: ../Imagenes/
+[2018-08-10 04:34:32.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:34:32.000000 ]- Cantidad de filas_IDImagen_6: 1
+[2018-08-10 04:34:32.000000 ]- Accion MySql: Hago update imagen 6
+[2018-08-10 04:34:32.000000 ]- URL-img: ../Imagenes/
+[2018-08-10 04:34:32.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:34:32.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:35:49.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:35:49.000000 ]- Parametro 1: 1
+[2018-08-10 04:35:49.000000 ]- Cantidad: 2
+[2018-08-10 04:35:49.000000 ]- Archivo: archivo0
+[2018-08-10 04:35:49.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:35:49.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:35:49.000000 ]- Redimensiono: archivo0
+[2018-08-10 04:35:49.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:35:49.000000 ]- Termino: archivo0
+[2018-08-10 04:35:49.000000 ]- Archivo: archivo1
+[2018-08-10 04:35:49.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:35:49.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:35:49.000000 ]- Redimensiono: archivo1
+[2018-08-10 04:35:49.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:35:49.000000 ]- Termino: archivo1
+[2018-08-10 04:35:49.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:35:49.000000 ]- Cantidad de filas_IDImagen_4: 1
+[2018-08-10 04:35:49.000000 ]- Accion MySql: Hago update imagen 4
+[2018-08-10 04:35:49.000000 ]- URL-img: ../Imagenes/
+[2018-08-10 04:35:49.000000 ]- Filas Actualizadas: 0
+[2018-08-10 04:35:49.000000 ]- Cantidad de filas_IDImagen_6: 1
+[2018-08-10 04:35:49.000000 ]- Accion MySql: Hago update imagen 6
+[2018-08-10 04:35:49.000000 ]- URL-img: ../Imagenes/
+[2018-08-10 04:35:49.000000 ]- Filas Actualizadas: 0
+[2018-08-10 04:35:49.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:39:44.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:39:44.000000 ]- Parametro 1: 
+[2018-08-10 04:39:44.000000 ]- Cantidad: 
+[2018-08-10 04:39:44.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:39:44.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:40:01.000000 ]- entre: entre
+[2018-08-10 04:40:01.000000 ]- 1: Iidnota:
+[2018-08-10 04:40:01.000000 ]- 3: Iidimagen:
+[2018-08-10 04:40:01.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 04:40:01.000000 ]- 1: Filas Insertadas
+[2018-08-10 04:41:14.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:41:14.000000 ]- Parametro 1: 1
+[2018-08-10 04:41:14.000000 ]- Cantidad: 3
+[2018-08-10 04:41:14.000000 ]- Archivo: archivo0
+[2018-08-10 04:41:14.000000 ]- Carpeta temporal_0: C:\wamp\tmp\php54C0.tmp
+[2018-08-10 04:41:14.000000 ]- Imagen temporal_0: C:\wamp\tmp\php54C0.tmp\DSC_1085.JPG
+[2018-08-10 04:41:14.000000 ]- Redimensiono: archivo0
+[2018-08-10 04:41:14.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:41:14.000000 ]- Termino: archivo0
+[2018-08-10 04:41:14.000000 ]- Archivo: archivo1
+[2018-08-10 04:41:14.000000 ]- Carpeta temporal_1: C:\wamp\tmp\php54C1.tmp
+[2018-08-10 04:41:14.000000 ]- Imagen temporal_1: C:\wamp\tmp\php54C1.tmp\DSC_1091.JPG
+[2018-08-10 04:41:14.000000 ]- Redimensiono: archivo1
+[2018-08-10 04:41:14.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:41:14.000000 ]- Termino: archivo1
+[2018-08-10 04:41:14.000000 ]- Archivo: archivo2
+[2018-08-10 04:41:14.000000 ]- Carpeta temporal_2: C:\wamp\tmp\php54C2.tmp
+[2018-08-10 04:41:14.000000 ]- Imagen temporal_2: C:\wamp\tmp\php54C2.tmp\DSC_1095.JPG
+[2018-08-10 04:41:14.000000 ]- Redimensiono: archivo2
+[2018-08-10 04:41:14.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:41:14.000000 ]- Termino: archivo2
+[2018-08-10 04:41:14.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:41:14.000000 ]- Cantidad de filas_IDImagen_4: 1
+[2018-08-10 04:41:14.000000 ]- Accion MySql: Hago update imagen 4
+[2018-08-10 04:41:14.000000 ]- URL-img: ../Imagenes/DSC_1085.JPG
+[2018-08-10 04:41:14.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:41:14.000000 ]- Cantidad de filas_IDImagen_6: 1
+[2018-08-10 04:41:14.000000 ]- Accion MySql: Hago update imagen 6
+[2018-08-10 04:41:14.000000 ]- URL-img: ../Imagenes/DSC_1091.JPG
+[2018-08-10 04:41:14.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:41:14.000000 ]- Cantidad de filas_IDImagen_9: 1
+[2018-08-10 04:41:14.000000 ]- Accion MySql: Hago update imagen 9
+[2018-08-10 04:41:14.000000 ]- URL-img: ../Imagenes/DSC_1095.JPG
+[2018-08-10 04:41:14.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:41:14.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:41:51.000000 ]- entre: entre
+[2018-08-10 04:41:51.000000 ]- 1: Iidnota:
+[2018-08-10 04:41:51.000000 ]- 4: Iidimagen:
+[2018-08-10 04:41:51.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 04:41:51.000000 ]- 1: Filas Insertadas
+[2018-08-10 04:44:35.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:44:35.000000 ]- Parametro 1: 1
+[2018-08-10 04:44:35.000000 ]- Cantidad: 4
+[2018-08-10 04:44:35.000000 ]- Archivo: archivo0
+[2018-08-10 04:44:35.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:44:35.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:44:35.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:44:35.000000 ]- Archivo: archivo1
+[2018-08-10 04:44:35.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:44:35.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:44:35.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:44:35.000000 ]- Archivo: archivo2
+[2018-08-10 04:44:35.000000 ]- Carpeta temporal_2: 
+[2018-08-10 04:44:35.000000 ]- Imagen temporal_2: \
+[2018-08-10 04:44:35.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:44:35.000000 ]- Archivo: archivo3
+[2018-08-10 04:44:35.000000 ]- Carpeta temporal_3: C:\wamp\tmp\php644D.tmp
+[2018-08-10 04:44:35.000000 ]- Imagen temporal_3: C:\wamp\tmp\php644D.tmp\image_example_5.jpg
+[2018-08-10 04:44:35.000000 ]- Redimensiono: archivo3
+[2018-08-10 04:44:35.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:44:35.000000 ]- Termino: archivo3
+[2018-08-10 04:44:35.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:44:35.000000 ]- Cantidad de filas_IDImagen_10: 1
+[2018-08-10 04:44:35.000000 ]- Accion MySql: Hago update imagen 10
+[2018-08-10 04:44:35.000000 ]- URL-img: ../Imagenes/image_example_5.jpg
+[2018-08-10 04:44:35.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:44:35.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:51:20.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:51:20.000000 ]- Parametro 1: 1
+[2018-08-10 04:51:20.000000 ]- Cantidad: 4
+[2018-08-10 04:51:20.000000 ]- Archivo: archivo0
+[2018-08-10 04:51:20.000000 ]- Carpeta temporal_0: C:\wamp\tmp\php928F.tmp
+[2018-08-10 04:51:20.000000 ]- Imagen temporal_0: C:\wamp\tmp\php928F.tmp\DSC_1086.JPG
+[2018-08-10 04:51:20.000000 ]- Redimensiono: archivo0
+[2018-08-10 04:51:20.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:51:20.000000 ]- Termino: archivo0
+[2018-08-10 04:51:20.000000 ]- Archivo: archivo1
+[2018-08-10 04:51:20.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:51:20.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:51:20.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:51:20.000000 ]- Archivo: archivo2
+[2018-08-10 04:51:20.000000 ]- Carpeta temporal_2: C:\wamp\tmp\php9290.tmp
+[2018-08-10 04:51:20.000000 ]- Imagen temporal_2: C:\wamp\tmp\php9290.tmp\DSC_1162.JPG
+[2018-08-10 04:51:20.000000 ]- Redimensiono: archivo2
+[2018-08-10 04:51:20.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:51:20.000000 ]- Termino: archivo2
+[2018-08-10 04:51:20.000000 ]- Archivo: archivo3
+[2018-08-10 04:51:20.000000 ]- Carpeta temporal_3: 
+[2018-08-10 04:51:20.000000 ]- Imagen temporal_3: \
+[2018-08-10 04:51:20.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:51:20.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:51:20.000000 ]- Cantidad de filas_IDImagen_4: 1
+[2018-08-10 04:51:20.000000 ]- Accion MySql: Hago update imagen 4
+[2018-08-10 04:51:20.000000 ]- URL-img: ../Imagenes/DSC_1086.JPG
+[2018-08-10 04:51:20.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:51:20.000000 ]- Cantidad de filas_IDImagen_9: 1
+[2018-08-10 04:51:20.000000 ]- Accion MySql: Hago update imagen 9
+[2018-08-10 04:51:20.000000 ]- URL-img: ../Imagenes/DSC_1162.JPG
+[2018-08-10 04:51:20.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:51:20.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:55:46.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:55:46.000000 ]- Parametro 1: 1
+[2018-08-10 04:55:46.000000 ]- Cantidad: 4
+[2018-08-10 04:55:46.000000 ]- Archivo: archivo0
+[2018-08-10 04:55:46.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:55:46.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:55:46.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:46.000000 ]- Archivo: archivo1
+[2018-08-10 04:55:46.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:55:46.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:55:46.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:46.000000 ]- Archivo: archivo2
+[2018-08-10 04:55:46.000000 ]- Carpeta temporal_2: 
+[2018-08-10 04:55:46.000000 ]- Imagen temporal_2: \
+[2018-08-10 04:55:46.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:46.000000 ]- Archivo: archivo3
+[2018-08-10 04:55:46.000000 ]- Carpeta temporal_3: 
+[2018-08-10 04:55:46.000000 ]- Imagen temporal_3: \
+[2018-08-10 04:55:46.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:46.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:55:46.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:55:57.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:55:57.000000 ]- Parametro 1: 1
+[2018-08-10 04:55:57.000000 ]- Cantidad: 4
+[2018-08-10 04:55:57.000000 ]- Archivo: archivo0
+[2018-08-10 04:55:57.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:55:57.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:55:57.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:57.000000 ]- Archivo: archivo1
+[2018-08-10 04:55:57.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:55:57.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:55:57.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:57.000000 ]- Archivo: archivo2
+[2018-08-10 04:55:57.000000 ]- Carpeta temporal_2: C:\wamp\tmp\phpCE0B.tmp
+[2018-08-10 04:55:57.000000 ]- Imagen temporal_2: C:\wamp\tmp\phpCE0B.tmp\DSC_1085.JPG
+[2018-08-10 04:55:57.000000 ]- Redimensiono: archivo2
+[2018-08-10 04:55:57.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:55:57.000000 ]- Termino: archivo2
+[2018-08-10 04:55:57.000000 ]- Archivo: archivo3
+[2018-08-10 04:55:57.000000 ]- Carpeta temporal_3: 
+[2018-08-10 04:55:57.000000 ]- Imagen temporal_3: \
+[2018-08-10 04:55:57.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:55:57.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:55:57.000000 ]- Cantidad de filas_IDImagen_9: 1
+[2018-08-10 04:55:57.000000 ]- Accion MySql: Hago update imagen 9
+[2018-08-10 04:55:57.000000 ]- URL-img: ../Imagenes/DSC_1085.JPG
+[2018-08-10 04:55:57.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:55:57.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:56:41.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen: cadena
+[2018-08-10 04:56:41.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-10 04:57:05.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen : cadena
+[2018-08-10 04:57:05.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-10 04:58:00.000000 ]- entre: entre
+[2018-08-10 04:58:00.000000 ]- 1: Iidnota:
+[2018-08-10 04:58:00.000000 ]- 5: Iidimagen:
+[2018-08-10 04:58:00.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (1, '', '');: Query
+[2018-08-10 04:58:00.000000 ]- 1: Filas Insertadas
+[2018-08-10 04:58:12.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:58:12.000000 ]- Parametro 1: 1
+[2018-08-10 04:58:12.000000 ]- Cantidad: 5
+[2018-08-10 04:58:12.000000 ]- Archivo: archivo0
+[2018-08-10 04:58:12.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:58:12.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:58:12.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:12.000000 ]- Archivo: archivo1
+[2018-08-10 04:58:12.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:58:12.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:58:12.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:12.000000 ]- Archivo: archivo2
+[2018-08-10 04:58:12.000000 ]- Carpeta temporal_2: 
+[2018-08-10 04:58:12.000000 ]- Imagen temporal_2: \
+[2018-08-10 04:58:12.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:12.000000 ]- Archivo: archivo3
+[2018-08-10 04:58:12.000000 ]- Carpeta temporal_3: 
+[2018-08-10 04:58:12.000000 ]- Imagen temporal_3: \
+[2018-08-10 04:58:12.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:12.000000 ]- Archivo: archivo4
+[2018-08-10 04:58:12.000000 ]- Carpeta temporal_4: C:\wamp\tmp\phpDE70.tmp
+[2018-08-10 04:58:12.000000 ]- Imagen temporal_4: C:\wamp\tmp\phpDE70.tmp\image_example_2.jpg
+[2018-08-10 04:58:12.000000 ]- Redimensiono: archivo4
+[2018-08-10 04:58:13.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-10 04:58:13.000000 ]- Termino: archivo4
+[2018-08-10 04:58:13.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:58:13.000000 ]- Cantidad de filas_IDImagen_11: 1
+[2018-08-10 04:58:13.000000 ]- Accion MySql: Hago update imagen 11
+[2018-08-10 04:58:13.000000 ]- URL-img: ../Imagenes/image_example_2.jpg
+[2018-08-10 04:58:13.000000 ]- Filas Actualizadas: 1
+[2018-08-10 04:58:13.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-10 04:58:21.000000 ]- entre: entre
+[2018-08-10 04:58:21.000000 ]- 0:  mysql_errno
+[2018-08-10 04:58:26.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-10 04:58:26.000000 ]- Parametro 1: 1
+[2018-08-10 04:58:26.000000 ]- Cantidad: 4
+[2018-08-10 04:58:26.000000 ]- Archivo: archivo0
+[2018-08-10 04:58:26.000000 ]- Carpeta temporal_0: 
+[2018-08-10 04:58:26.000000 ]- Imagen temporal_0: \
+[2018-08-10 04:58:26.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:26.000000 ]- Archivo: archivo1
+[2018-08-10 04:58:26.000000 ]- Carpeta temporal_1: 
+[2018-08-10 04:58:26.000000 ]- Imagen temporal_1: \
+[2018-08-10 04:58:26.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:26.000000 ]- Archivo: archivo2
+[2018-08-10 04:58:26.000000 ]- Carpeta temporal_2: 
+[2018-08-10 04:58:26.000000 ]- Imagen temporal_2: \
+[2018-08-10 04:58:26.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:26.000000 ]- Archivo: archivo3
+[2018-08-10 04:58:26.000000 ]- Carpeta temporal_3: 
+[2018-08-10 04:58:26.000000 ]- Imagen temporal_3: \
+[2018-08-10 04:58:26.000000 ]- Error de acceso al archivo: 4
+[2018-08-10 04:58:26.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-10 04:58:26.000000 ]- *----------------FIN: Fin de file.php--------------*

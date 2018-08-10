@@ -75,3 +75,22 @@ function ComboBox(combo)
 function mostrarInputFileModificado(numeroInput) {
   $("#archivo_oculto"+numeroInput).change( function() {$("#archivo"+numeroInput).val($("#archivo_oculto"+numeroInput).val()); } );
 }
+
+
+function previewFiles(Archivo, Imagen) {
+    
+  //alert("Entre");  
+  var preview = document.getElementById(Imagen);  
+  var file = document.getElementById(Archivo).files[0];
+  var reader  = new FileReader();
+
+  reader.onloadend = function () {
+    preview.src = reader.result;
+  };
+  
+  if (file) {
+    reader.readAsDataURL(file);
+  } else {
+    preview.src = "imagen";
+  }
+}

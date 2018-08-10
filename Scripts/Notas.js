@@ -51,26 +51,26 @@ else
   return _ajaxobj;
 } 
 
-function Borrar_Imagen(datos)
+function Borrar_Imagen(idnota, idimagen)
 {
 //  
-    
-   // alert(datos);
-   // alert("Entre");
-    Fidnota     = datos['idnota'].value;
+    //alert(idnota);
+    //alert(idimagen);
+    //alert("Entre");
+    Fidnota     = idnota;
   //  alert("idnota: "+Fidnota);
-    Fidimagen   = datos['idimagen'].value;
+    Fidimagen   = idimagen;
    // alert("idimagen: "+Fidimagen);
 // Creo objeto AJAX y envio peticion al servidor
 	ajax = ajaxobj();
 //var ajax=nuevoAjax();
 	ajax.open("GET", "BorrarImagen.php?&Iidnota="+Fidnota+"&Iidimagen="+Fidimagen, false);
         alert("salio");
-// Indicamos que funci�n vigila el cambio de estado
+// Indicamos que función vigila el cambio de estado
 	ajax.onreadystatechange=function() {
 		if (ajax.readyState === 4) {
 // Mostramos resultado
-                     alert ("Registro eliminado");
+                     alert ("Imagen eliminada");
 //                          alert(ajax.responseText);
 		}
 		else {
@@ -78,17 +78,18 @@ function Borrar_Imagen(datos)
                 }
 	};
 	ajax.send(null);
+        location.reload();
 }
 
 
-function Insertar_Imagen(datos)
+function Insertar_Imagen(idnota, idimagen)
 {
 //  
   //  alert(datos);
    // alert("Entre");
-    Fidnota     = datos['idnota'].value;
+    Fidnota     = idnota;
    // alert("idnota: "+Fidnota);
-    Fidimagen   = datos['idimagen'].value;
+    Fidimagen   = idimagen;
     
    // alert("idimagen: "+Fidimagen);
 // Creo objeto AJAX y envio peticion al servidor
@@ -108,7 +109,39 @@ function Insertar_Imagen(datos)
                 }
 	};
 	ajax.send(null);
+        location.reload();
 }
 
+function Subir_imagenes(idnota, cantidad)
+{
+//  
+  //  alert(datos);
+    alert("Entre");
+    Fidnota     = idnota;
+   // alert("idnota: "+Fidnota);
+    FCantidad   = cantidad;
+    
+   // alert("idimagen: "+Fidimagen);
+// Creo objeto AJAX y envio peticion al servidor
+	ajax = ajaxobj();
+//var ajax=nuevoAjax();
+ //<form action="file.php?idnotaImg=<?php echo $Param; ?>&Cantidad=<?php echo $cantidad; ?>" method="post" enctype="multipart/form-data">
+        ajax.open("POST", "file.php?&idnotaImg="+Fidnota+"&Cantidad="+FCantidad, false);
+//	ajax.open("GET", "InsertarImagen.php?&Iidnota="+Fidnota+"&Iidimagen="+Fidimagen, false);
+     //   alert("salio");
+// Indicamos que funci�n vigila el cambio de estado
+	ajax.onreadystatechange=function() {
+		if (ajax.readyState === 4) {
+// Mostramos resultado
+                     alert ("Imagenes subidas correctamente");
+//                          alert(ajax.responseText);
+		}
+		else {
+                    alert(ajax.responseText);
+                }
+	};
+	ajax.send(null);
+        location.reload();
+}
 
 //

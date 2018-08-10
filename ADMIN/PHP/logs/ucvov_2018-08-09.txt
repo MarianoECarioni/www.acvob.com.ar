@@ -1,0 +1,70 @@
+[2018-08-09 23:37:30.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen: cadena
+[2018-08-09 23:37:30.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-09 23:37:56.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-09 23:37:56.000000 ]- Parametro 1: 1
+[2018-08-09 23:37:56.000000 ]- Cantidad: 3
+[2018-08-09 23:37:56.000000 ]- Archivo: archivo0
+[2018-08-09 23:37:56.000000 ]- Carpeta temporal_0: 
+[2018-08-09 23:37:56.000000 ]- Imagen temporal_0: \
+[2018-08-09 23:37:56.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:37:56.000000 ]- Archivo: archivo1
+[2018-08-09 23:37:56.000000 ]- Carpeta temporal_1: 
+[2018-08-09 23:37:56.000000 ]- Imagen temporal_1: \
+[2018-08-09 23:37:56.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:37:56.000000 ]- Archivo: archivo2
+[2018-08-09 23:37:56.000000 ]- Carpeta temporal_2: 
+[2018-08-09 23:37:56.000000 ]- Imagen temporal_2: \
+[2018-08-09 23:37:56.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:37:56.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-09 23:37:56.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-09 23:41:36.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-09 23:41:36.000000 ]- Parametro 1: 1
+[2018-08-09 23:41:36.000000 ]- Cantidad: 3
+[2018-08-09 23:41:36.000000 ]- Archivo: archivo0
+[2018-08-09 23:41:36.000000 ]- Carpeta temporal_0: 
+[2018-08-09 23:41:36.000000 ]- Imagen temporal_0: \
+[2018-08-09 23:41:36.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:41:36.000000 ]- Archivo: archivo1
+[2018-08-09 23:41:36.000000 ]- Carpeta temporal_1: 
+[2018-08-09 23:41:36.000000 ]- Imagen temporal_1: \
+[2018-08-09 23:41:36.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:41:36.000000 ]- Archivo: archivo2
+[2018-08-09 23:41:36.000000 ]- Carpeta temporal_2: 
+[2018-08-09 23:41:36.000000 ]- Imagen temporal_2: \
+[2018-08-09 23:41:36.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:41:36.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-09 23:41:36.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-09 23:53:13.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-09 23:53:13.000000 ]- Parametro 1: 1
+[2018-08-09 23:53:13.000000 ]- Cantidad: 3
+[2018-08-09 23:53:13.000000 ]- Archivo: archivo0
+[2018-08-09 23:53:13.000000 ]- Carpeta temporal_0: 
+[2018-08-09 23:53:13.000000 ]- Imagen temporal_0: \
+[2018-08-09 23:53:13.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:53:13.000000 ]- Archivo: archivo1
+[2018-08-09 23:53:13.000000 ]- Carpeta temporal_1: 
+[2018-08-09 23:53:13.000000 ]- Imagen temporal_1: \
+[2018-08-09 23:53:13.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:53:13.000000 ]- Archivo: archivo2
+[2018-08-09 23:53:13.000000 ]- Carpeta temporal_2: 
+[2018-08-09 23:53:13.000000 ]- Imagen temporal_2: \
+[2018-08-09 23:53:13.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:53:13.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-09 23:53:13.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-09 23:58:10.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-09 23:58:10.000000 ]- Parametro 1: 1
+[2018-08-09 23:58:10.000000 ]- Cantidad: 3
+[2018-08-09 23:58:10.000000 ]- Archivo: archivo0
+[2018-08-09 23:58:10.000000 ]- Carpeta temporal_0: 
+[2018-08-09 23:58:10.000000 ]- Imagen temporal_0: \
+[2018-08-09 23:58:10.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:58:10.000000 ]- Archivo: archivo1
+[2018-08-09 23:58:10.000000 ]- Carpeta temporal_1: 
+[2018-08-09 23:58:10.000000 ]- Imagen temporal_1: \
+[2018-08-09 23:58:10.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:58:10.000000 ]- Archivo: archivo2
+[2018-08-09 23:58:10.000000 ]- Carpeta temporal_2: 
+[2018-08-09 23:58:10.000000 ]- Imagen temporal_2: \
+[2018-08-09 23:58:10.000000 ]- Error de acceso al archivo: 4
+[2018-08-09 23:58:11.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-09 23:58:11.000000 ]- *----------------FIN: Fin de file.php--------------*
