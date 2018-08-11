@@ -133,7 +133,6 @@ and open the template in the editor.
                     <table border="0">
                         <tr valign="top">
                             <td>
-                                
                                     <div id="TablaDeNotasViejas">
                                         <table id="nota_secundaria_2">
                                             <tr>
@@ -146,21 +145,24 @@ and open the template in the editor.
                                                     </table>
                                                 </td>
                                             </tr>
-                                <?php for ($i = 1; $i <= 3; $i++ ){ ?>
+                                <?php $k=1;
+                                      for ($i = 1; $i <= 3; $i++ ){ ?>
                                             <!-- Fila de notas antiguas con foto -->
                                             <tr>
                                                 <!--      NOTA IZQUIERDA 1 CON FOTO  -->
                                                 <td class="colIzq">
                                                     <?php $j = ($i*2)-1;
-                                                        $cadena ="PHP/NotasViejas.php?llamada=".$j."&idtiponota=1";
+                                                          $k++;
+                                                        $cadena ="PHP/NotasViejas.php?llamada=".$j."&idtiponota=1"."&Idnota=".$k;
                                                         echo '<iframe src='.$cadena.' marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=314pt height=252pt scrolling=no>';
                                                         echo '</iframe>';
                                                     ?>
                                                 </td>
                                                 <!--      NOTA DERECHA 1 CON FOTO  -->
                                                 <td>
-                                                    <?php $j = $i*2; 
-                                                        $cadena ="PHP/NotasViejas.php?llamada=".$j."&idtiponota=1";
+                                                    <?php $j = $i*2;
+                                                         $k++;
+                                                        $cadena ="PHP/NotasViejas.php?llamada=".$j."&idtiponota=1"."&Idnota=".$k;
                                                         echo '<iframe src='.$cadena.' marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=314pt height=252pt scrolling=no >';
                                                         echo '</iframe>';
                                                     ?>
@@ -173,7 +175,7 @@ and open the template in the editor.
                                                         <tr>
                                                             <td>
                                                                <?php $j = ($i*2)-1; 
-                                                                    $cadena="PHP/NotasViejas.php?llamada=".$j."&idtiponota=2";  
+                                                                    $cadena="PHP/NotasViejas.php?llamada=".$j."&idtiponota=2"."&Idnota=".$k;  
                                                                     echo '<iframe src='.$cadena.' marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=314pt height=252pt scrolling=no >';
                                                                     echo '</iframe>';
                                                                ?>     
@@ -187,7 +189,7 @@ and open the template in the editor.
                                                         <tr>
                                                             <td>
                                                                 <?php $j = ($i*2); 
-                                                                    $cadena="PHP/NotasViejas.php?llamada=".$j."&idtiponota=2";  
+                                                                    $cadena="PHP/NotasViejas.php?llamada=".$j."&idtiponota=2"."&Idnota=".$k;  
                                                                     echo '<iframe src='.$cadena.' marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=314pt height=252pt scrolling=no >';
                                                                     echo '</iframe>';
                                                                ?>     

@@ -132,13 +132,13 @@ and open the template in the editor.
                                                     </table>
                                                 </td>
                                             </tr>
-                                <?php for ($i = 1; $i <= 3; $i++ ){ ?>
+                                <?php   for ($i = 1; $i <= 3; $i++ ){ ?>
                                             <!-- Fila de notas antiguas con foto -->
                                             <tr>
                                                 <!--      NOTA IZQUIERDA 1 CON FOTO  -->
                                                 <td class="colIzq">
                                                     <?php $j = ($i*2)-1;
-                                                        $cadena ="../../PHP/NotasViejas.php?llamada=".$j."&idtiponota=1";
+                                                    $cadena ="../../PHP/NotasViejas.php?llamada=".$j."&idtiponota=1";
                                                         echo '<iframe src='.$cadena.' marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=314pt height=252pt scrolling=no>';
                                                         echo '</iframe>';
                                                     ?>

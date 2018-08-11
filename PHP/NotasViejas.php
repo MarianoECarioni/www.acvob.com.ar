@@ -24,7 +24,7 @@
     $Llamada = $_GET['llamada'];
     $IdTipoNota = $_GET['idtiponota'];
     include ("conexion.php");
-    $query = "SELECT * FROM notas WHERE TIPO_DE_NOTA = $IdTipoNota ORDER BY ID_NOTA DESC;";
+    $query = "SELECT * FROM notas WHERE TIPO_DE_NOTA = ".$IdTipoNota." and id_nota > 1";
     $resultado=mysql_query($query, $conexion) or die( "Error en $query: " . mysql_error() );
      
     $Vueltas = 1;
@@ -34,15 +34,30 @@
         $IMAGEN =  $fila['LINK_IMAGEN'];
         $PIE = $fila['PIE'];
         $IDNOTA = $fila['ID_NOTA'];
-        $Vueltas = $Vueltas + 1;
+        $Vueltas++;
     }            
     mysql_close($conexion);    
-
+    $urlAnterior = substr($_SERVER['HTTP_REFERER'],-14);
+    
 if ($IdTipoNota == 1){ ?>
 <?php 
+if ($urlAnterior === "AdminNotas.php"){
+  $cadena = '"'."abrir('../ADMIN/PHP/EditNotasAmpliadas.php?idnota=".$IDNOTA."')".'" ';  
+    
+}
+else {
 $cadena = '"'."abrir('NotasAmpliadas.php?idnota=".$IDNOTA."')".'"';
-echo '<table  id="nota_ex_principal" background='.$IMAGEN.' onclick='.$cadena.' ></td>';
+}
+        
+//echo '<table  id="nota_ex_principal" background='.$IMAGEN.' onclick='.$cadena.' ></td>';
 ?>
+<div >
+    <div style="position: absolute; top: 0px; left:10pt;">
+        <iframe src="PresentacionAutomaticaChica.php?idnota= <?php echo $IDNOTA; ?>" marginWidth=0 marginHeight=0 frameBorder=0 frameSpacing=0 width=280pt height=200pt scrolling=no ></iframe>
+    </div>
+</div>
+<div style="position: absolute;">   
+<table  id="nota_ex_principal" onclick=<?php  echo $cadena ?> >    
   <tr  class="foto"> 
         <td></td>
   </tr>
@@ -56,7 +71,7 @@ echo '<table  id="nota_ex_principal" background='.$IMAGEN.' onclick='.$cadena.' 
         </td>
   </tr>
 </table>
-    
+</div>
 <?php 
 }
 else { 

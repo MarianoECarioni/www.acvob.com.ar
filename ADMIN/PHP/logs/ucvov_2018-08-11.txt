@@ -1,0 +1,90 @@
+[2018-08-11 03:27:31.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen : cadena
+[2018-08-11 03:27:31.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-11 03:31:55.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen : cadena
+[2018-08-11 03:31:55.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-11 05:44:43.000000 ]- Veni a inscribirte al torneo mas emocionante de zona oeste. Un torneo que no se defina hasta llegar al final. Anotate y se parte del mejor Volley del Oeste! No te lo pierdas!  <br>Un torneo para toda la familia! vino la vieji a visitar a aylen : cadena
+[2018-08-11 05:44:43.000000 ]- Espectacular partido de ida de la final de Sub-18 en UCV. Las chicas de San Clemente derrotaron a las chicas de Acquarellas por dos sets a cero, metiendose así en la semifinal del torneo apertura 2014 de la UCV. San Clemente es la primera vez, desde que ingresó a la UCV, que clasifica a la semifinal del torneo.<br>El entrenador dió las gracias a sus jugadoras, comentó que está contento con el equipo porque ellas dejaron todo en la cancha para lograr la clasificación. <br><br>Somo ACVOB: cadena
+[2018-08-11 05:45:57.000000 ]- Una nota que no tiene nada que envidiarle a las demas. : cadena
+[2018-08-11 05:45:57.000000 ]- Que gran nota!!: cadena
+[2018-08-11 05:46:05.000000 ]- entre: entre
+[2018-08-11 05:46:05.000000 ]- 3: Iidnota:
+[2018-08-11 05:46:05.000000 ]- 1: Iidimagen:
+[2018-08-11 05:46:05.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (3, '', '');: Query
+[2018-08-11 05:46:05.000000 ]- 1: Filas Insertadas
+[2018-08-11 05:46:33.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 05:46:33.000000 ]- Parametro 1: 3
+[2018-08-11 05:46:33.000000 ]- Cantidad: 1
+[2018-08-11 05:46:33.000000 ]- Archivo: archivo0
+[2018-08-11 05:46:33.000000 ]- Carpeta temporal_0: 
+[2018-08-11 05:46:33.000000 ]- Imagen temporal_0: \DSC_0285.JPG
+[2018-08-11 05:46:33.000000 ]- Error de acceso al archivo: 1
+[2018-08-11 05:46:33.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 05:46:33.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-11 05:46:44.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 05:46:44.000000 ]- Parametro 1: 3
+[2018-08-11 05:46:44.000000 ]- Cantidad: 1
+[2018-08-11 05:46:44.000000 ]- Archivo: archivo0
+[2018-08-11 05:46:44.000000 ]- Carpeta temporal_0: 
+[2018-08-11 05:46:44.000000 ]- Imagen temporal_0: \DSC_0218.JPG
+[2018-08-11 05:46:44.000000 ]- Error de acceso al archivo: 1
+[2018-08-11 05:46:44.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 05:46:44.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-11 05:51:41.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 05:51:41.000000 ]- Parametro 1: 3
+[2018-08-11 05:51:41.000000 ]- Cantidad: 1
+[2018-08-11 05:51:41.000000 ]- Archivo: archivo0
+[2018-08-11 05:51:41.000000 ]- Carpeta temporal_0: 
+[2018-08-11 05:51:41.000000 ]- Imagen temporal_0: \DSC_0218.JPG
+[2018-08-11 05:51:41.000000 ]- Error de acceso al archivo: 1
+[2018-08-11 05:51:41.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 05:51:41.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-11 05:51:43.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 05:51:43.000000 ]- Parametro 1: 3
+[2018-08-11 05:51:43.000000 ]- Cantidad: 1
+[2018-08-11 05:51:43.000000 ]- Archivo: archivo0
+[2018-08-11 05:51:43.000000 ]- Carpeta temporal_0: 
+[2018-08-11 05:51:43.000000 ]- Imagen temporal_0: \
+[2018-08-11 05:51:43.000000 ]- Error de acceso al archivo: 4
+[2018-08-11 05:51:43.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 05:51:43.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-11 05:55:23.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 05:55:23.000000 ]- Parametro 1: 3
+[2018-08-11 05:55:23.000000 ]- Cantidad: 1
+[2018-08-11 05:55:23.000000 ]- Archivo: archivo0
+[2018-08-11 05:55:23.000000 ]- Carpeta temporal_0: C:\wamp\tmp\phpDB77.tmp
+[2018-08-11 05:55:23.000000 ]- Imagen temporal_0: C:\wamp\tmp\phpDB77.tmp\DSC_0218.JPG
+[2018-08-11 05:55:23.000000 ]- Redimensiono: archivo0
+[2018-08-11 05:55:24.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-11 05:55:24.000000 ]- Termino: archivo0
+[2018-08-11 05:55:24.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 05:55:24.000000 ]- Cantidad de filas_IDImagen_16: 1
+[2018-08-11 05:55:24.000000 ]- Accion MySql: Hago update imagen 16
+[2018-08-11 05:55:24.000000 ]- URL-img: ../Imagenes/DSC_0218.JPG
+[2018-08-11 05:55:25.000000 ]- Filas Actualizadas: 1
+[2018-08-11 05:55:25.000000 ]- *----------------FIN: Fin de file.php--------------*
+[2018-08-11 06:00:04.000000 ]- Una nota que no tiene nada que envidiarle a las demas. : cadena
+[2018-08-11 06:00:04.000000 ]- Que gran nota!!: cadena
+[2018-08-11 06:00:09.000000 ]- entre: entre
+[2018-08-11 06:00:09.000000 ]- 3: Iidnota:
+[2018-08-11 06:00:09.000000 ]- 2: Iidimagen:
+[2018-08-11 06:00:09.000000 ]- INSERT INTO img_notas (id_nota, url_img, detalle) VALUES (3, '', '');: Query
+[2018-08-11 06:00:09.000000 ]- 1: Filas Insertadas
+[2018-08-11 06:00:15.000000 ]- *-------------INICIO: Inicio de file.php----------*
+[2018-08-11 06:00:15.000000 ]- Parametro 1: 3
+[2018-08-11 06:00:15.000000 ]- Cantidad: 2
+[2018-08-11 06:00:15.000000 ]- Archivo: archivo0
+[2018-08-11 06:00:15.000000 ]- Carpeta temporal_0: 
+[2018-08-11 06:00:15.000000 ]- Imagen temporal_0: \
+[2018-08-11 06:00:15.000000 ]- Error de acceso al archivo: 4
+[2018-08-11 06:00:15.000000 ]- Archivo: archivo1
+[2018-08-11 06:00:15.000000 ]- Carpeta temporal_1: C:\wamp\tmp\php52C9.tmp
+[2018-08-11 06:00:15.000000 ]- Imagen temporal_1: C:\wamp\tmp\php52C9.tmp\DSC_0307.JPG
+[2018-08-11 06:00:15.000000 ]- Redimensiono: archivo1
+[2018-08-11 06:00:16.000000 ]- Muevo: Muevo de la temporal a la definitiva
+[2018-08-11 06:00:16.000000 ]- Termino: archivo1
+[2018-08-11 06:00:16.000000 ]- Path imágenes: ../Imagenes/
+[2018-08-11 06:00:16.000000 ]- Cantidad de filas_IDImagen_17: 1
+[2018-08-11 06:00:16.000000 ]- Accion MySql: Hago update imagen 17
+[2018-08-11 06:00:16.000000 ]- URL-img: ../Imagenes/DSC_0307.JPG
+[2018-08-11 06:00:16.000000 ]- Filas Actualizadas: 1
+[2018-08-11 06:00:16.000000 ]- *----------------FIN: Fin de file.php--------------*
