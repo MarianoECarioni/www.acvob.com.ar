@@ -94,5 +94,11 @@ for ($i = 0; $i < $cantidad; $i++)
 }
 write_log("*----------------FIN", "Fin de file.php--------------*");
 mysqli_close($conexion); 
+?>
+<script>
+    alert("Se guardo correctamente"); 
+    
+</script>
+<?php
 header('Location: LoadFiles.php?&idnota='.$IDNota);
 ?>

@@ -453,8 +453,24 @@
     margin-bottom: 10px;
     margin-top: 10px;
     resize:none;
+}
 
-
+#detalleCortoSinFoto {
+    background-color: transparent;
+    color: white; 
+    font-family:arial;
+    font-style: italic;
+    text-align:justify;
+    vertical-align: top;
+    width: 640px;
+    height: 80px;
+    border-style: none;
+    font-size: 12pt;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    resize:none;
 }
 
 #detalleLargo {

@@ -24,10 +24,10 @@
     $Llamada = $_GET['llamada'];
     $IdTipoNota = $_GET['idtiponota'];
     include ("conexion.php");
-    $query = "SELECT * FROM notas WHERE TIPO_DE_NOTA = ".$IdTipoNota." and id_nota > 1";
+    $query = "SELECT * FROM notas WHERE TIPO_DE_NOTA = ".$IdTipoNota;
     $resultado=mysql_query($query, $conexion) or die( "Error en $query: " . mysql_error() );
      
-    $Vueltas = 1;
+    $Vueltas = 0;
     while (($fila = mysql_fetch_assoc($resultado))  && $Vueltas <= $Llamada ){
         $TITULO =  $fila['TITULO'];	
         $DETALLE_CORTO = $fila['DETALLE_CORTO'];
@@ -74,8 +74,14 @@ $cadena = '"'."abrir('NotasAmpliadas.php?idnota=".$IDNOTA."')".'"';
 </div>
 <?php 
 }
-else { 
-    $cadena = '"'."abrir('NotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
+else {       
+    if ($urlAnterior === "AdminNotas.php"){
+        $cadena = '"'."abrir('/www.acvob.com.ar/ADMIN/PHP/EditNotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
+    }
+    else{
+        $cadena = '"'."abrir('NotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
+    }
+    
     echo '<table id="nota_secundaria_1" onclick='.$cadena.'>';
 ?>   
         <tr>      
