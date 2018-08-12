@@ -76,7 +76,7 @@ $cadena = '"'."abrir('NotasAmpliadas.php?idnota=".$IDNOTA."')".'"';
 }
 else {       
     if ($urlAnterior === "AdminNotas.php"){
-        $cadena = '"'."abrir('/www.acvob.com.ar/ADMIN/PHP/EditNotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
+        $cadena = '"'."abrir('../ADMIN/PHP/EditNotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
     }
     else{
         $cadena = '"'."abrir('NotasAmpliadasSinFoto.php?idnota=".$IDNOTA."')".'"';
