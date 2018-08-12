@@ -16,7 +16,7 @@
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel='stylesheet' type='text/css' href='../Estilos/Notas.css'    />
-    <script type="text/javascript" language="javascript" src="/www.acvob.com.ar/Scripts/funciones.js"></script>
+    <script type="text/javascript" language="javascript" src="../Scripts/funciones.js"></script>
 </head>
 <body>
 <?php
@@ -34,7 +34,7 @@
      $urlAnterior = substr($_SERVER['HTTP_REFERER'],-14);
      
      if ($urlAnterior === "AdminNotas.php"){
-         $cadena = '"'."abrir('/www.acvob.com.ar/ADMIN/PHP/EditNotasAmpliadasSinFoto.php?idnota=2')".'"';
+         $cadena = '"'."abrir('../ADMIN/PHP/EditNotasAmpliadasSinFoto.php?idnota=2')".'"';
      }
      else{
          $cadena = '"'."abrir('NotasAmpliadasSinFoto.php?idnota=2')".'"';
